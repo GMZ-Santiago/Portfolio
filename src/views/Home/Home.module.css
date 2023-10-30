@@ -1,0 +1,70 @@
+.inicio1{
+  text-align: center;
+  margin-top: 200px;
+  color: rgb(202, 202, 202);
+  font-size: 30px;
+  font-style: italic;
+}
+
+.inicio2{
+  text-align: center;
+  margin-top: 50;
+  margin-bottom: auto;
+  color: white;
+  font-size: 60px;
+  font-style: oblique;
+}
+
+.inicio3{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  font-style: oblique;
+  font-size: 60px;
+}
+
+.innovacion {
+  text-align: center;
+  margin-top: auto;
+  color: rgb(67, 67, 224);
+  font-style: oblique;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.cv {
+  background-color: #ffffff; /* Cambia el color de fondo según tus preferencias */
+  color: rgb(0, 0, 0); /* Cambia el color del texto según tus preferencias */
+  padding: 1px 25px; /* Ajusta el relleno (padding) según tus preferencias */
+  border: none; /* Quita el borde si lo deseas */
+  border-radius: 10px; /* Agrega esquinas redondeadas según tus preferencias */
+  font-size: 12px; /* Ajusta el tamaño de fuente según tus preferencias */
+  cursor: pointer;
+}
+
+.cv:hover {
+  background-color: rgb(67, 67, 224); /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+.cv2 {
+  background-color: #ffffff; /* Cambia el color de fondo según tus preferencias */
+  margin-left: 10px;
+  color: rgb(0, 0, 0); /* Cambia el color del texto según tus preferencias */
+  padding: 1px 65px; /* Ajusta el relleno (padding) según tus preferencias */
+  border: none; /* Quita el borde si lo deseas */
+  border-radius: 10px; /* Agrega esquinas redondeadas según tus preferencias */
+  font-size: 12px; /* Ajusta el tamaño de fuente según tus preferencias */
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.cv2:hover {
+  background-color:rgb(67, 67, 224); /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}

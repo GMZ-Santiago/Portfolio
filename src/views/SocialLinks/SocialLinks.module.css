@@ -1,0 +1,14 @@
+.linksContainer {
+    margin-top: 5px; 
+    display: flex;
+  }
+  
+  .link {
+    display: block;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 25px;
+  }
+  

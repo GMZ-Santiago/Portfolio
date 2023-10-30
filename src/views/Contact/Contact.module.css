@@ -1,0 +1,35 @@
+/* Estilo para el contenedor principal */
+.contact {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 4rem; /* Redujimos el tamaño de fuente para una mejor legibilidad */
+  padding: 20px;
+  margin-left: 130px; /* Alineación izquierda con un margen reducido */
+}
+
+/* Estilo para cada elemento de contacto */
+.contactItem {
+  margin-right: 20px;
+  font-size: 1.2rem; /* Tamaño de fuente más pequeño */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* Estilo para los vínculos y texto */
+.vinculos {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px; /* Agregamos un espacio uniforme a ambos lados de los vínculos */
+}
+
+/* Estilo para las imágenes de íconos */
+.gmail,
+.github,
+.linkedin {
+  width: 30px; /* Tamaño reducido de las imágenes de íconos */
+  height: 30px;
+  margin-right: 10px;
+}

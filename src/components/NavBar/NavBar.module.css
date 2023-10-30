@@ -1,0 +1,70 @@
+.mainContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.mainContainer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.mainContainer a:hover {
+  text-decoration: none; 
+  color: gray;
+  position: relative; 
+}
+
+.mainContainer a:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: gray; 
+}
+
+a:hover {
+  color: gray;
+}
+
+.mainContainer .logo {
+  margin-right: auto;
+}
+
+.mainContainer .socialLinks {
+  margin-left: auto;
+}
+
+.mainContainer .nav-link {
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.mainContainer .nav-link:hover {
+  color: gray;
+}
+
+.fixed {
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.transparent {
+  backdrop-filter: blur(1px); 
+  background-color: rgba(82, 82, 82, 0.8); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
